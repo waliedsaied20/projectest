@@ -108,7 +108,7 @@ function Navbar() {
                                 <span className="text-xl mr-2">
                                     <TbTruckLoading />
                                 </span>
-                                <label className="cursor-pointer">Shop Now 😎</label>
+                                <label className="cursor-pointer">Shop Now</label>
                             </button>
                         </div>
                     ) : null}
