@@ -103,8 +103,9 @@ function Navbar() {
                     {/* </div> */}
 
                     {isDesktop ? (
-                        <div className="flex justify-center items-center max-sm:hidden">
-                            <button className="buyNow text-black font-bold flex justify-between items-center bg-white p-2 pl-5  rounded-s-3xl mx-5 hover:bg-green-400 hover:text-white">
+                        <div className="flex justify-center items-center max-sm:hidden border">
+                            <button className="buyNow text-black font-bold flex justify-between items-center bg-white p-2 pl-5  
+                            rounded-s-3xl mx-5 hover:bg-green-400 hover:text-white">
                                 <span className="text-xl mr-2">
                                     <TbTruckLoading />
                                 </span>
