@@ -2,7 +2,7 @@ import BgGroundSign from '../image/svg_for_signin_signup.svg'
 
 
 function SignUp() {
-    // Welcome to SignUp
+
     const handleSubmit = (ee) => {
         ee.preventDefault();
     }
@@ -27,7 +27,7 @@ function SignUp() {
                         <form className="flex flex-col items-start justify-start " onSubmit={handleSubmit}>
 
                             <div className="flex justify-between items-center w-full my-1 ">
-                                <label className=" font-bold" htmlFor="name">Name :- </label>
+                                <label className=" font-bold" htmlFor="name">Name : </label>
                                 <input className=' border rounded  p-2 w-3/4' type="text"  id="name" placeholder="Enter Your Name" />
                                 {/* {errors.name && <p className="text-red-500 text-sm italic"> {errors.name}</p>} */}
                             </div>

@@ -2,7 +2,7 @@ import BgGroundSign from '../image/svg_for_signin_signup.svg'
 
 
 function SignUp() {
-    // Welcome to SignUp
+    // Welcome to S
     const handleSubmit = (ee) => {
         ee.preventDefault();
     }
