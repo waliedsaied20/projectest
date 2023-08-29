@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Start Navbar  */
+
+.navbar {
+  background-color: orange;
+}
+
+.star-rating {
+  display: flex;
+}
+
+.star {
+  @apply text-gray-400 hover:text-yellow-500 cursor-pointer;
+}
+
+.star-filled {
+  @apply text-yellow-500;
+}
+.scroling:hover{
+  transform: scale(1.2);
+}
