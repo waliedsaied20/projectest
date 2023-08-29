@@ -1,7 +1,7 @@
 import Reacharg from "../image/Rectangle 8.png";
 
 function Why({bgGG}) {
-
+    // welcome to this 4 Cards why choose us 
     const contentWhy = [
         { id: '001', title: 'Part 1', content: 'Digitization of business cards allows for easy updates to your contact information and card layout' },
         { id: '002', title: 'Part 2', content: 'Standardized format and regulation of business cards within one organization' },
