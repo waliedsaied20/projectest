@@ -42,7 +42,7 @@ function Why({bgGG}) {
 
                         <div className="flex justify-center my-4 mt-4">
                             <button className="py-2 mr-5  px-3 font-medium text-white rounded-2xl " style={{backgroundColor:bgGG}}>Help Me </button>
-                            <button className="py-2  px-3 font-medium text-white rounded-2xl bg-yellow-600 capitalize">more information</button>
+                            <button className="py-2  px-3 font-medium text-white rounded-2xl bg-yellow-600 capitalize">more information ☂</button>
                         </div>
                     </div>
 
